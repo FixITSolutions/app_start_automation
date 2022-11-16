@@ -3,7 +3,6 @@ const CONFIG_FILE_PATH = './config.json';
 
 function getConfigFile() {
     if (!fs.existsSync(CONFIG_FILE_PATH)) {
-        console.log('calling failed')
         return null;
     }
     
@@ -13,8 +12,6 @@ function getConfigFile() {
 
 function writeConfigFile(fileData) {
     if (!fs.existsSync(CONFIG_FILE_PATH)) {
-        console.log('writting failed')
-
         return false;
     }
 
