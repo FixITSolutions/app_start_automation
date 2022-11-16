@@ -3,12 +3,14 @@
 const appDescription = {
     title: 'Simple node.js app, easy to setup and use to start and close your work day',
     commands: [
+        'details',
         'addApp',
         'removeApp',
-        'start',
-        'close',
-        'addMyName',
-        'show'
+        'startWork',
+        'closeWork',
+        'addName',
+        'show',
+        'joke'
     ]
 };
 console.log(appDescription.title);
