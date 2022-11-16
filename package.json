@@ -1,0 +1,27 @@
+{
+  "name": "hello-cli",
+  "version": "1.0.0",
+  "description": "Cli App",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "details": "./bin/index.js",
+    "startWork": "./bin/start.js",
+    "closeWork": "./bin/close.js",
+    "addApp": "./bin/addApp.js",
+    "removeApp": "./bin/removeApp.js",
+    "addMyName": "./bin/addName.js",
+    "show": "./bin/show.js",
+    "joke": "./bin/joke.js"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "yargs": "^13.3.2"
+  }
+}
