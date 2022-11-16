@@ -1,35 +1,8 @@
 {
-    "WORK_APPS": [
-        {
-            "fileName": "slack.exe",
-            "filePath": "C:/Users/Fix IT Tech Solution/AppData/Local/slack/"
-        },
-        {
-            "fileName": "Code.exe",
-            "filePath": "C:/Users/Fix IT Tech Solution/AppData/Local/Programs/Microsoft VS Code/"
-        },
-        {
-            "fileName": "Update.exe\" --processStart \"Teams.exe",
-            "filePath": "C:/Users/Fix IT Tech Solution/AppData/Local/Microsoft/Teams/",
-            "closeName": "Teams.exe"
-        },
-        {
-            "fileName": "Screenpresso.exe",
-            "filePath": "C:/Users/Fix IT Tech Solution/AppData/Local/Learnpulse/Screenpresso/"
-        },
-        {
-            "fileName": "KeePass.exe",
-            "filePath": "C:/Program Files/KeePass Password Safe 2/"
-        },
-        {
-            "fileName": "chrome.exe",
-            "filePath": "C:/Program Files/Google/Chrome/Application/"
-        }
-    ],
+    "WORK_APPS": [],
     "JOKE_APIS": [
         "https://api.chucknorris.io/jokes/random",
         "https://joke.deno.dev"
     ],
-    "JOKE_READING_TIME": 5000,
-    "NAME": "test"
+    "JOKE_READING_TIME": 5000
 }
